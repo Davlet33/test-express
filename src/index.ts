@@ -12,13 +12,7 @@ app.get('/', (req:Request, res:Response):void => {
 	res.send(helloMessage);
 
 })
-app.post('/video', (req:Request, res:Response):void => {
 
-	let helloMessage:string = 'Hello Incubator!!';
-
-	res.send(helloMessage);
-
-})
 
 server.listen(port, () => {
 	console.log(`Example app listening on port ${port}`)
