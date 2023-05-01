@@ -6,7 +6,7 @@ const port = process.env.PORT || 5000
 const server = http.createServer(app);
 
 app.get('/', (req:Request, res:Response):void => {
-	res.send('Hello Incubator!!');
+	res.send('message');
 })
 
 
